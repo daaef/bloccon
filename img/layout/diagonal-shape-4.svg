@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="423" height="347" viewBox="0 0 423 347">
+  <defs>
+    <linearGradient id="diagonal-shape-4-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity=".062"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#diagonal-shape-4-a)" fill-rule="evenodd" transform="translate(-334.424 -502.924)">
+    <rect width="430" height="703" x="240" y="186" rx="215" transform="rotate(45 455 537.5)"/>
+    <rect width="430" height="703" x="186" y="50" rx="215" transform="rotate(45 401 401.5)"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+{
+    "name": "BlocCon",
+    "title": "BlocCon - Multipurpose Landing Page",
+    "description": "landing page template",
+    "author": "Elegant Pixel",
+    "url": "https://themeforest.net/user/elegant_pixel/portfolio",
+    "version": "1.0.0",
+    "license": "Under Themeforest (https://themeforest.net/licenses)",
+    "paths": {
+        "css": "./css",
+        "img": "./img",
+        "js": "./js",
+        "cssdev": "./scss",
+        "jsdev": "./js/src"
+    },
+    "browserslist": "last 4 version",
+    "eslintConfig": {},
+    "eslintIgnore": [
+        "gulpfile.js"
+    ],
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-codekit": "^0.1.3",
+        "gulp-concat": "^2.6.1",
+        "gulp-eslint": "^5.0.0",
+        "gulp-header": "^2.0.5",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.1",
+        "gulp-watch": "^5.0.1",
+        "node-sass": "^4.11.0",
+        "run-sequence": "^2.2.1"
+    },
+    "dependencies": {
+        "browserslist": "^4.6.4",
+        "caniuse-lite": "^1.0.30000983",
+        "natives": "^1.1.6"
+    }
+}

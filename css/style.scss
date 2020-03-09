@@ -1,0 +1,323 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    letter-spacing: -0.8px;
+}
+
+nav {
+    background: white;
+    .logo{
+        color: #B586FF;
+        padding-top: 10px;
+    }
+    .navbar-brand {
+        a{
+            color: black;
+            font-size: 1.4em;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+
+    }
+    ion-icon {
+        font-size: 1.4em;
+    }
+
+    .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(33px);
+  -ms-transform: translateX(33px);
+  transform: translateX(33px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+}
+
+section.media-icons {
+    .icons {
+        min-height: 170px;
+        min-width: 170px;
+        color: white;
+        border-radius: 25px;
+        font-size: 4em;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+
+    .facebook {
+        background-color: #0072EE;
+        box-shadow: 2px 2px 25px 4px #ADD8FF;
+
+    }
+    .twitter {
+        background-color: #00B3FF;
+        box-shadow: 2px 2px 25px 4px #A4DDF9;
+
+    }
+    .pinterest {
+        background: #FF414B;
+        box-shadow: 2px 2px 25px 4px #FFC6CB;
+
+    }
+    .dribble {
+        background: #FF3A80;
+        box-shadow: 2px 2px 25px 4px #FFD0EB;
+
+    }
+    .instagram {
+        background: #9248FF;
+        box-shadow: 2px 2px 25px 4px #DECEFD;
+
+    }
+
+
+    .red-text{
+        color: #FF1B2F;
+    }
+
+}
+.text-secondary {
+    opacity: 0.5;
+}
+.blue-text {
+    color: #71DBBC;
+}
+
+.overview {
+    button {
+        background-color: #F1F5F8;
+        color: grey;
+        border-radius: 25px;
+        border: none;
+        padding-top:3px;
+        padding-bottom: 3px;
+    }
+
+    .card {
+        background-color: #F1F5F8;
+        border-radius: 17px;
+        border-color: #F1F5F8;
+        transition: 0.2s;
+    }
+    .card:hover {
+        box-shadow: 3px 3px 20px 1px lightgrey;
+        transform: translateY(-10px)
+    }
+
+    .twitter {
+        color: #00B3FF;
+    }
+
+    .dribble {
+        color: #FF3A80;
+    }
+    .facebook {
+        color: #0072EE;
+    }
+    .pinterest {
+        color: #FF414B;
+    }
+
+    .instagram {
+        color: #9248FF;
+    }
+
+
+}
+
+.span-dark {
+    color: white;
+}
+
+
+// dark mode
+.dark {
+    transition: 1s;
+    background-color: #161A25;
+    body {
+        .text-secondary {
+            opacity: 0.89;
+        }
+    }
+    nav {
+        * {
+            color: white;
+        }
+        .logo {
+            color: #B586FF;
+        }
+    }
+
+    .overview {
+        button {
+            background-color: transparent;
+            color: white;
+        }
+
+        .sort {
+            background-color: #30303F;
+        }
+
+        .card {
+            border-color: #30303D;
+        }
+        .card {
+            * {
+                color:white;
+            }
+
+        }
+        .text-secondary {
+            opacity: 0.9;
+            color: white;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 0 0 black;
+        }
+
+        .twitter {
+            color: white;
+        }
+
+        .dribble {
+            color: white;
+        }
+        .facebook {
+            color: white;
+        }
+        .pinterest {
+            color: white;
+        }
+
+        .instagram {
+            color: white;
+        }
+        h4, .fa-list{
+            color: white;
+        }
+        .facebook-card {
+            background-color: #0072EE;
+        }
+        .twitter-card {
+            background-color: #00B3FF;
+        }
+        .dribble-card {
+            background-color: #FF3A80;
+        }
+        .instagram-card {
+            background-color: #9248FF;
+        }
+        .pinterest-card{
+            background-color: #FF414B;
+        }
+    }
+
+    section.media-icons {
+        .facebook {
+            box-shadow: 0 0 0 0 black;
+
+        }
+        .twitter {
+            box-shadow: 0 0 0 0 black;
+        }
+        .pinterest {
+            box-shadow: 0 0 0 0 black;
+        }
+        .dribble {
+
+            box-shadow: 0 0 0 0 black;
+        }
+        .instagram {
+
+            box-shadow: 0 0 0 0 black;
+        }
+
+        .content {
+            color: white;
+        }
+
+
+        .red-text{
+            color: #FF1B2F;
+        }
+
+    }
+
+    .navbar-brand {
+        a{
+            color: white;
+        }
+
+    }
+    .navbar-nav{
+        li {
+            color: white;
+        }
+    }
+
+}

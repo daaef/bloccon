@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="110" viewBox="0 0 156 110">
+  <g fill="none" fill-rule="evenodd" transform="translate(-84 -8)">
+    <circle cx="202" cy="75" r="1.5" stroke="#FFF" stroke-width="3" opacity=".05"/>
+    <circle cx="169" cy="104" r="1" stroke="#FFF" stroke-width="3" opacity=".05"/>
+    <polygon fill="#FFF" points="188.733 57 189 57.151 171.267 74 171 73.849" opacity=".1"/>
+    <polygon fill="#FFF" points="234.772 58 235 58.228 223.228 70 223 69.772" opacity=".1"/>
+    <polygon fill="#FFF" points="234.752 53 235 53.165 221.248 67 221 66.835" opacity=".05"/>
+    <g stroke="#FFF" stroke-width=".8" opacity=".05" transform="translate(211 .919)">
+      <circle cx="16.764" cy="16.764" r="4.558"/>
+      <circle cx="16.764" cy="16.764" r="6.683"/>
+      <circle cx="16.882" cy="16.882" r="8.926"/>
+      <circle cx="17" cy="17" r="11.169"/>
+      <circle cx="17" cy="17" r="13.767"/>
+      <circle cx="17" cy="17" r="16.6"/>
+    </g>
+    <g stroke="#FFF" opacity=".03" transform="translate(84 110)">
+      <circle cx="3.931" cy="3.931" r="1"/>
+      <circle cx="4" cy="4" r="1.155"/>
+      <circle cx="4" cy="4" r="1.707"/>
+      <circle cx="3.931" cy="3.931" r="2.19"/>
+      <circle cx="4" cy="4" r="2.81"/>
+      <circle cx="4" cy="4" r="3.5"/>
+    </g>
+    <polygon fill="#FFF" points="103.689 36.851 109.467 35.995 108.611 41.77" opacity=".05" transform="rotate(87 106.578 38.882)"/>
+    <polygon fill="#FFF" points="228.943 99.316 236.274 98.227 235.185 105.555" opacity=".06" transform="rotate(120 232.609 101.891)"/>
+  </g>
+</svg>

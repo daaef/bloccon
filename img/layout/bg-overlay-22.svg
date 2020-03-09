@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="687" viewBox="0 0 1920 687">
+  <defs>
+    <linearGradient id="bg-overlay-22-a" x1="33.954%" x2="101.602%" y1="101.958%" y2="-9.613%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="bg-overlay-22-b" x1="41.659%" x2="81.438%" y1="-6.231%" y2="57.384%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity=".177"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-27 -302)">
+    <path fill="url(#bg-overlay-22-a)" d="M1639.92423,731.369125 L1427.4286,988.195129 L1974.03848,988.195129 L1974.03848,699.807102 C1974.03848,669.983726 1949.86185,645.807102 1920.03848,645.807102 C1918.27869,645.807102 1916.51995,645.893126 1914.76855,646.064866 L1774.4996,659.819534 C1721.95568,664.971951 1673.58051,690.691547 1639.92423,731.369125 Z"/>
+    <path fill="url(#bg-overlay-22-b)" d="M324.594476,109.539585 L32.6887837,402.346162 L649.727261,402.346162 L649.727261,94.5687306 L419.910194,74.7072056 C384.550572,71.6513141 349.652009,84.4047192 324.594476,109.539585 Z" transform="rotate(-165 341.208 238.304)"/>
+  </g>
+</svg>

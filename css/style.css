@@ -1,0 +1,351 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  letter-spacing: -0.8px;
+}
+
+nav {
+  background: white;
+  /* Rounded sliders */
+}
+
+nav .logo {
+  color: #B586FF;
+  padding-top: 10px;
+}
+
+nav .navbar-brand a {
+  color: black;
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+nav .navbar-brand a:hover {
+  text-decoration: none;
+}
+
+nav ion-icon {
+  font-size: 1.4em;
+}
+
+nav .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+}
+
+nav .switch input {
+  display: none;
+}
+
+nav .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+nav .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+nav input:checked + .slider {
+  background-color: #2196F3;
+}
+
+nav input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+nav input:checked + .slider:before {
+  -webkit-transform: translateX(33px);
+  -ms-transform: translateX(33px);
+  transform: translateX(33px);
+}
+
+nav .slider.round {
+  border-radius: 34px;
+}
+
+nav .slider.round:before {
+  border-radius: 50%;
+}
+
+section.media-icons .icons {
+  min-height: 170px;
+  min-width: 170px;
+  color: white;
+  border-radius: 25px;
+  font-size: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section.media-icons .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section.media-icons .facebook {
+  background-color: #0072EE;
+  -webkit-box-shadow: 2px 2px 25px 4px #ADD8FF;
+          box-shadow: 2px 2px 25px 4px #ADD8FF;
+}
+
+section.media-icons .twitter {
+  background-color: #00B3FF;
+  -webkit-box-shadow: 2px 2px 25px 4px #A4DDF9;
+          box-shadow: 2px 2px 25px 4px #A4DDF9;
+}
+
+section.media-icons .pinterest {
+  background: #FF414B;
+  -webkit-box-shadow: 2px 2px 25px 4px #FFC6CB;
+          box-shadow: 2px 2px 25px 4px #FFC6CB;
+}
+
+section.media-icons .dribble {
+  background: #FF3A80;
+  -webkit-box-shadow: 2px 2px 25px 4px #FFD0EB;
+          box-shadow: 2px 2px 25px 4px #FFD0EB;
+}
+
+section.media-icons .instagram {
+  background: #9248FF;
+  -webkit-box-shadow: 2px 2px 25px 4px #DECEFD;
+          box-shadow: 2px 2px 25px 4px #DECEFD;
+}
+
+section.media-icons .red-text {
+  color: #FF1B2F;
+}
+
+.text-secondary {
+  opacity: 0.5;
+}
+
+.blue-text {
+  color: #71DBBC;
+}
+
+.overview button {
+  background-color: #F1F5F8;
+  color: grey;
+  border-radius: 25px;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.overview .card {
+  background-color: #F1F5F8;
+  border-radius: 17px;
+  border-color: #F1F5F8;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.overview .card:hover {
+  -webkit-box-shadow: 3px 3px 20px 1px lightgrey;
+          box-shadow: 3px 3px 20px 1px lightgrey;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.overview .twitter {
+  color: #00B3FF;
+}
+
+.overview .dribble {
+  color: #FF3A80;
+}
+
+.overview .facebook {
+  color: #0072EE;
+}
+
+.overview .pinterest {
+  color: #FF414B;
+}
+
+.overview .instagram {
+  color: #9248FF;
+}
+
+.span-dark {
+  color: white;
+}
+
+.dark {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #161A25;
+}
+
+.dark body .text-secondary {
+  opacity: 0.89;
+}
+
+.dark nav * {
+  color: white;
+}
+
+.dark nav .logo {
+  color: #B586FF;
+}
+
+.dark .overview button {
+  background-color: transparent;
+  color: white;
+}
+
+.dark .overview .sort {
+  background-color: #30303F;
+}
+
+.dark .overview .card {
+  border-color: #30303D;
+}
+
+.dark .overview .card * {
+  color: white;
+}
+
+.dark .overview .text-secondary {
+  opacity: 0.9;
+  color: white;
+}
+
+.dark .overview .card:hover {
+  -webkit-box-shadow: 0 0 0 0 black;
+          box-shadow: 0 0 0 0 black;
+}
+
+.dark .overview .twitter {
+  color: white;
+}
+
+.dark .overview .dribble {
+  color: white;
+}
+
+.dark .overview .facebook {
+  color: white;
+}
+
+.dark .overview .pinterest {
+  color: white;
+}
+
+.dark .overview .instagram {
+  color: white;
+}
+
+.dark .overview h4, .dark .overview .fa-list {
+  color: white;
+}
+
+.dark .overview .facebook-card {
+  background-color: #0072EE;
+}
+
+.dark .overview .twitter-card {
+  background-color: #00B3FF;
+}
+
+.dark .overview .dribble-card {
+  background-color: #FF3A80;
+}
+
+.dark .overview .instagram-card {
+  background-color: #9248FF;
+}
+
+.dark .overview .pinterest-card {
+  background-color: #FF414B;
+}
+
+.dark section.media-icons .facebook {
+  -webkit-box-shadow: 0 0 0 0 black;
+          box-shadow: 0 0 0 0 black;
+}
+
+.dark section.media-icons .twitter {
+  -webkit-box-shadow: 0 0 0 0 black;
+          box-shadow: 0 0 0 0 black;
+}
+
+.dark section.media-icons .pinterest {
+  -webkit-box-shadow: 0 0 0 0 black;
+          box-shadow: 0 0 0 0 black;
+}
+
+.dark section.media-icons .dribble {
+  -webkit-box-shadow: 0 0 0 0 black;
+          box-shadow: 0 0 0 0 black;
+}
+
+.dark section.media-icons .instagram {
+  -webkit-box-shadow: 0 0 0 0 black;
+          box-shadow: 0 0 0 0 black;
+}
+
+.dark section.media-icons .content {
+  color: white;
+}
+
+.dark section.media-icons .red-text {
+  color: #FF1B2F;
+}
+
+.navbar-brand a img{
+  filter: invert(1);
+  height: 55px;
+  width: auto;
+}
+
+.dark .navbar-brand a img{
+  filter: invert(0);
+}
+
+.dark .navbar-nav li {
+  color: white;
+}
+
+.dark table{
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
